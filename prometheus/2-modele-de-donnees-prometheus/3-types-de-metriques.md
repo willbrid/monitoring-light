@@ -37,3 +37,6 @@ go_gc_duration_seconds_sum{job="Linux Server"}
 ```
 
 Interrogeons le décompte d'une métrique quantile.
+```
+go_gc_duration_seconds_count{job="Linux Server"}
+```
