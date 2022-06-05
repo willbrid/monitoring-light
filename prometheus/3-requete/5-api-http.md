@@ -9,7 +9,7 @@ Utilisons le paramètre de requête pour spécifier notre requête :
 /api/v1/query?query=node_cpu_seconds_total{cpu="0"}
 ```
 
-Pour les requêtes contenant certains caractères, nous devrons peut-être coder la requête en URL :
+Pour les requêtes contenant certains caractères, nous devons peut-être coder la requête en URL :
 ```
 /api/v1/query --data-urlencode "query=node_cpu_seconds_total{cpu=\"0\"}"
 ```
