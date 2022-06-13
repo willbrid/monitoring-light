@@ -22,7 +22,7 @@ Exemple :
 up{job="Linux Server"}
 ```
 
-- Interroger les données d'un job spécifique :
+- Interroger les données d'une instance spécifique :
 ```
 up{instance="localhost:9090"}
 ```
