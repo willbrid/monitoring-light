@@ -13,6 +13,18 @@ Il existe plusieurs manières de surveiller les applications :
 <br>
 Instances : prometheus ajoute automatiquement une étiquette d'instance aux métriques. Les instances sont des endpoints individuels que prometheus sniffe. Généralement, une instance est une application ou un processus unique surveillé.
 <br>
-job : prometheus ajoute également automatiquement des étiquettes pour les jobs. Un job est une collection d'instances, partageant toutes le même objectif. Par exemple, un job peut faire référence à une collection de plusieurs réplicas pour une seule application.
+Job : prometheus ajoute également automatiquement des étiquettes pour les jobs. Un job est une collection d'instances, partageant toutes le même objectif. Par exemple, un job peut faire référence à une collection de plusieurs réplicas pour une seule application.
 <br>
+Exemple : 
+<br>
+- Interroger les données d'un job spécifique :
+```
+up{job="Linux Server"}
+```
+
+- Interroger les données d'un job spécifique :
+```
+up{instance="localhost:9090"}
+```
+
 prometheus crée automatiquement des données métriques sur les données sniffées pour chaque instance.
