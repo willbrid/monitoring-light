@@ -24,7 +24,7 @@ sudo systemctl restart docker
 curl <IP_SERVEUR_DU_DEMON_DOCKER>:9323/metrics
 ```
 
-## Configurer Prometheus pour récupérer les données métriques Docker
+## Configurons Prometheus pour récupérer les données métriques Docker
 Sur une machine virtuelle où est installé prometheus nous procédons comme suit.
 
 Nous éditons le fichier de configuration de prometheus :
