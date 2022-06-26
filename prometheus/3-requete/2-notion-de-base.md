@@ -6,7 +6,7 @@ Les deux éléments suivants sont des sélecteurs de séries chronologiques vali
 - node_cpu_seconds_total
 - node_cpu_seconds_total{cpu="0"}
 
-Lorsque plusieurs valeurs existent pour l'étiquette dans les données prometheus et que vous ne spécifiez pas l'étiquette dans votre requête, prometheus renverra simplement des données pour toutes les valeurs de l'étiquette.
+Lorsque plusieurs valeurs existent pour l'étiquette dans les données prometheus et que nous ne spécifions pas l'étiquette dans votre requête, prometheus renverra simplement des données pour toutes les valeurs de l'étiquette.
 
 ## Etiquettes correspondant
 Nous pouvons utiliser une variété d'opérateurs pour effectuer des correspondances avancées basées sur des valeurs d'étiquette. <br>
