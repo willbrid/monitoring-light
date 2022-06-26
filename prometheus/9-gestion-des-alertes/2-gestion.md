@@ -99,7 +99,7 @@ sudo killall -HUP alertmanager
 
 Actualisons Alertmanager dans notre navigateur. L'alerte **DownstreamServiceDown** ne devrait plus apparaître. Nous pouvons cliquer sur la case inhibée pour le rendre à nouveau visible.
 
-## Désactivation temporaire une alerte
+## Désactivation temporaire d'une alerte
 Accédons à Alertmanager dans un navigateur Web à l'adresse : 
 
 ```
