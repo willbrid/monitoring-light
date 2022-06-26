@@ -1,6 +1,6 @@
 # Règles d'enregistrement
 
-Les règles d'enregistrement vous permettent de pré-calculer les valeurs des expressions et des requêtes et d'enregistrer les résultats sous leur propre ensemble distinct de données de séries chronologiques.
+Les règles d'enregistrement nous permettent de pré-calculer les valeurs des expressions et des requêtes et d'enregistrer les résultats sous leur propre ensemble distinct de données de séries chronologiques.
 <br>
 Les règles d'enregistrement sont évaluées selon une planification, en exécutant une expression et en enregistrant le résultat en tant que nouvelle métrique.
 <br>
