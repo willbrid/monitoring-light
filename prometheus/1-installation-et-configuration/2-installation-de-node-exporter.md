@@ -68,4 +68,4 @@ scrape_configs:
 sudo systemctl restart prometheus
 ```
 
-Maintenant, si vous vérifions la cible dans l'interface utilisateur Web prometheus (http://prometheus-ip:9090/targets), nous pourrons voir le statut du node_exporter_metrics à *UP*.
+Maintenant, si nous vérifions la cible dans l'interface utilisateur Web prometheus (http://prometheus-ip:9090/targets), nous pourrons voir le statut du node_exporter_metrics à *UP*.
