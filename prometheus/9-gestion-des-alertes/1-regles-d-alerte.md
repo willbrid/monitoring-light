@@ -17,7 +17,7 @@ groups:
       summary: High request latency  
 ```
 
-Nous pouvez voir l'état actuel de nos alertes dans notre navigateur à l'adresse :
+Nous pouvons voir l'état actuel de nos alertes dans notre navigateur à l'adresse :
 ```
 http://<Prometheus Address>:9090/alerts
 ```
