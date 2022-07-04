@@ -22,6 +22,6 @@ Il est souvent utile d'indexer le même champ de différentes manières à des f
 <br>
 La chaîne d'analyse appliquée à un champ de texte intégral lors de l'indexation est également utilisée lors de la recherche. Lorsque nous interrogeons un champ de texte intégral, le texte de la requête subit la même analyse avant que les termes ne soient recherchés dans l'index.
 
-<br><br>
+<br>
 
 Source : [Elasticsearch Doc](https://www.elastic.co/guide/index.html)
